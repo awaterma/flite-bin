@@ -2,3 +2,14 @@ flite-1.4-release/config.log
 flite-1.4-release/config.status
 flite-1.4-release/config/config
 flite-1.4-release/config/system.mak
+flite-1.4-release/bin
+flite-1.4-release/build
+flite-1.4-release/include/flite_version.h
+flite-1.4-release/main/compile_regexes.o
+flite-1.4-release/main/flite_main.o
+flite-1.4-release/main/flite_time_main.o
+flite-1.4-release/main/flite_voice_list.c
+flite-1.4-release/main/flite_voice_list.o
+flite-1.4-release/main/t2p_main.o
+flite-1.4-release/tools/find_sts_main.o
+flite-1.4-release/tools/flite_sort_main.o
