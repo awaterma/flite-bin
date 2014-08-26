@@ -1,0 +1,27 @@
+{
+  "name": "node-flite",
+  "version": "0.0.1",
+  "description": "A node extension for Festival Lite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awaterma/flite.git"
+  },
+  "keywords": [
+    "flite",
+    "audio",
+    "voice"
+  ],
+  "author": "\"Andrew Waterman\" <awaterma@awaterma.org>",
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/awaterma/flite/issues"
+  },
+  "homepage": "https://github.com/awaterma/flite",
+  "scripts": {
+    "postinstall": "cd flite-1.4-release && make $(eval echo ${MAKE_OVERRIDES})"
+  }
+}
