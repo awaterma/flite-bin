@@ -13,3 +13,4 @@ flite-1.4-release/main/flite_voice_list.o
 flite-1.4-release/main/t2p_main.o
 flite-1.4-release/tools/find_sts_main.o
 flite-1.4-release/tools/flite_sort_main.o
+node_modules

@@ -1,14 +1,15 @@
 {
-  "name": "node-flite",
+  "name": "flite-bin",
   "version": "0.0.1",
-  "description": "A node extension for Festival Lite",
+  "description": "A node extension for the Festival Lite binary",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/lab/bin/lab -l test",
+    "postinstall": "cd flite-1.4-release && make $(eval echo ${MAKE_OVERRIDES})"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/awaterma/flite.git"
+    "url": "https://github.com/awaterma/flite-bin.git"
   },
   "keywords": [
     "flite",
@@ -18,10 +19,11 @@
   "author": "\"Andrew Waterman\" <awaterma@awaterma.org>",
   "license": "GPL3",
   "bugs": {
-    "url": "https://github.com/awaterma/flite/issues"
+    "url": "https://github.com/awaterma/flite-bin/issues"
   },
-  "homepage": "https://github.com/awaterma/flite",
-  "scripts": {
-    "postinstall": "cd flite-1.4-release && make $(eval echo ${MAKE_OVERRIDES})"
+  "homepage": "https://github.com/awaterma/flite-bin",
+  "devDependencies": {
+    "hamjest": "^2.10.0",
+    "lab": "^5.2.1"
   }
 }
